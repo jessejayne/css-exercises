@@ -1,0 +1,27 @@
+[33mcommit 577670d6b17b9b93ca5fc6ed28785b21cad5d133[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Jesse Jayne <jesse.jayne@snhu.edu>
+Date:   Mon Nov 15 10:25:08 2021 -0700
+
+    Used flexbox to center div
+
+[1mdiff --git a/flex/01-flex-center/style.css b/flex/01-flex-center/style.css[m
+[1mindex e35feac..019e1dd 100644[m
+[1m--- a/flex/01-flex-center/style.css[m
+[1m+++ b/flex/01-flex-center/style.css[m
+[36m@@ -3,6 +3,9 @@[m
+   border: 4px solid midnightblue;[m
+   width: 400px;[m
+   height: 300px;[m
+[32m+[m[32m  display: flex;[m
+[32m+[m[32m  align-items: center;[m
+[32m+[m[32m  justify-content: center;[m
+ }[m
+ [m
+ .box {[m
+[36m@@ -12,4 +15,5 @@[m
+   border: 6px solid maroon;[m
+   width: 80px;[m
+   height: 80px;[m
+[32m+[m[41m  [m
+ }[m
+\ No newline at end of file[m
